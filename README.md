@@ -1,6 +1,6 @@
 # M-94-Cipher
 
-## [historical context](Historical Context.md)
+## [historical context](HistoricalContext.md)
 
 ## [mechanics](Mechanics.md)
 
