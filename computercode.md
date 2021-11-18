@@ -53,8 +53,8 @@ def main():
         encoded += alpha[pos]
 
         # Now that we have been through one pass, adjust any of the rotors that need to be rotated.
-        disk1 = rotate(disk2)
-        if pos != 0 and pos % 26 == 0: disk2 = rotate(disk2)
+        disk1 = rotate(disk1)
+        if pos != 0 and pos % 26 == 0: disk2 = rotate(disk1)
         if pos != 0 and pos % 26 == 0: disk3 = rotate(disk3)
         if pos != 0 and pos % 26 == 0: disk4 = rotate(disk4)
         if pos != 0 and pos % 26 == 0: disk5 = rotate(disk5)
